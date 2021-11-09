@@ -11,7 +11,7 @@ const Navbar = () => (
 
   
     <div className="shopping-cart">
-    <NavLink to="/cart"><FaShoppingCart size='2rem' color='white' >shopping_cart</FaShoppingCart></NavLink>
+    <NavLink to="/cart"><FaShoppingCart size='3rem' color='white' >shopping_cart</FaShoppingCart></NavLink>
     
     </div>
   

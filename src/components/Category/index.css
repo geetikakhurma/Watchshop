@@ -1,5 +1,6 @@
-.womens-products {
+.items-wrapper {
   border-top: 4px solid black;
+  font-size: 1.5em;
 }
 
 .item {
@@ -20,6 +21,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 100%;
+size: 1.5em;
   
 }
 
@@ -27,8 +30,13 @@
   text-align: center;
 }
 
+a {
+  color: black;
+}
+
 img {
-  height: 40em;
+  height: 20em;
+  width: 18em;
 }
 
 #product-name {
@@ -67,24 +75,10 @@ i:hover {
   cursor: pointer;
 }
 
-.womens-title {
+.items-title {
   margin: 3em 0;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
-  text-align: center;
 }
-
-.btn{
-    background-color:black; /* Green */
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }

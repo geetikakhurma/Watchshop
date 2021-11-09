@@ -4,12 +4,13 @@ import './index';
 
 
 const AddtoCart=({cartid,delitem})=>{
-
+      
  return(
      <div>
       
       <center>  <h1>Your Cart</h1></center>
        {
+        
            cartid.map((id,index)=>{
                return(<div className="container"  >
                 {PRODUCTS.map((product) => {
@@ -42,10 +43,7 @@ const AddtoCart=({cartid,delitem})=>{
         </div>
           )
         }
-        else if(id===' ')
-        {
-          <h1>PLEASE ADD ITEMS TO CART</h1>
-        }
+       
       })}
                </div>)
            })

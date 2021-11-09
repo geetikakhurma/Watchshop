@@ -17,7 +17,7 @@ const Navbar = () => (
       </ul>
     </div>
     <div className="shopping-cart">
-    <NavLink exact to="/cart"><FaShoppingCart size='2rem' color='white' >shopping_cart</FaShoppingCart></NavLink>
+    <NavLink exact to="/cart"><FaShoppingCart size='3rem' color='white' >shopping_cart</FaShoppingCart></NavLink>
 
     </div>
   </nav>
