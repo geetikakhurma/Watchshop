@@ -1,6 +1,6 @@
 ### DEMO
 
- [shopwatches.netlify.app](shopwatches.netlify.app)
+ [https://shopwatches.netlify.app/](https://shopwatches.netlify.app/)
 
 # Getting Started with Create React App
 
