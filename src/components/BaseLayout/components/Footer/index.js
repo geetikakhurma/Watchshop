@@ -5,7 +5,7 @@ import './index.css';
 
 const Footer = () => (
   <div className="footer">
-    <p>© 2021 Copyright Geetika Khurma</p>
+    <p></p>
   </div>
 )
 
